@@ -9,6 +9,9 @@
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-8-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
 ![CSS Modules](https://img.shields.io/badge/CSS_Modules-Scoped-1572B6?style=for-the-badge&logo=cssmodules&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+🔗 **[Acesse o projeto ao vivo | Live Demo](http://devcurrency-crypto.vercel.app)**
 
 **[🇧🇷 Português](#-português)** · **[🇺🇸 English](#-english)**
 
