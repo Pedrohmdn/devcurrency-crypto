@@ -1,0 +1,149 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+
+  input {
+    width: 100%;
+    height: 44px;
+    padding: 0 1rem;
+    border-radius: 0.25rem;
+  }
+
+  button {
+    height: 44px;
+    border-radius: 0.25rem;
+    width: 44px;
+    background-color: transparent;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  table-layout: fixed;
+  margin-bottom: 60px;
+}
+
+.tr {
+  background-color: var(--background-table);
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+table th,
+table td {
+  padding: 1rem 0 1rem 1rem;
+  text-align: center;
+}
+
+.tdLabel {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.showMoreButton {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: var(--blue);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+.logoContainer {
+  width: 20px;
+  height: 20px;
+
+  img {
+    width: 100%;
+    transition: all 1s;
+
+    &:hover {
+      transform: scale(1.5);
+      z-index: 99;
+    }
+  }
+}
+
+.coinName {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 744px) {
+  .logoContainer {
+    margin-left: 1rem;
+  }
+  table th,
+  table td {
+    padding: 1rem;
+    text-align: center;
+  }
+  table thead {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+  }
+
+  .tr {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  table td {
+    border-bottom: 1px solid rgb(221, 221, 221, 0.17);
+    display: block;
+    text-align: right;
+
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  td:first-child,
+  th:first-child {
+    border-radius: 0;
+  }
+
+  td:last-child,
+  th:last-child {
+    border-radius: 0;
+  }
+}

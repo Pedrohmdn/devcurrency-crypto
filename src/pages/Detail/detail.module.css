@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  background-color: var(--background-detail);
+  border-radius: 0.5rem;
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 1.5rem;
+}
+
+.imageContainer {
+  width: 60px;
+  height: 60px;
+
+  img {
+    width: 100%;
+    transition: all 1s;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.coinInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  span {
+    display: block;
+  }
+  span:last-child {
+    display: inline;
+  }
+}
