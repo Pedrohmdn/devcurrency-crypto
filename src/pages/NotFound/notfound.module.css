@@ -1,0 +1,37 @@
+.wrapper {
+  height: calc(100vh - 220px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.actionButton {
+  padding: 1rem 1.5rem;
+  background-color: var(--blue);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: all 0.7s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

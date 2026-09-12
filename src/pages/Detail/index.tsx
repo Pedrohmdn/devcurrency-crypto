@@ -67,7 +67,7 @@ export default function Detail() {
       }
     } catch (error) {
       console.log(error);
-      navigate("/");
+      navigate("/notFound");
     }
   }
 
