@@ -52,13 +52,13 @@ export default function Detail() {
             value: data.data.marketCapUsd,
             locale: "en-US",
             currency: "USD",
-            compact: true,
+            notation: "compact",
           }),
           formatedVolume: currencyFormatter({
             value: data.data.volumeUsd24Hr,
             locale: "en-US",
             currency: "USD",
-            compact: true,
+            notation: "compact",
           }),
         };
 

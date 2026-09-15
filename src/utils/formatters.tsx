@@ -1,15 +1,13 @@
-interface PriceFormatterProps {
+interface PriceFormatterProps extends Intl.NumberFormatOptions  {
   value: number | string;
-  locale: string;
-  currency: string;
-  compact?: boolean;
+  locale: Intl.LocalesArgument;
 }
 
 export function currencyFormatter(currencyInfo: PriceFormatterProps): string {
   const price = Intl.NumberFormat(currencyInfo.locale, {
     style: "currency",
     currency: currencyInfo.currency,
-    notation: currencyInfo.compact ? "compact" : "standard",
+    notation: currencyInfo.notation,
   });
 
   

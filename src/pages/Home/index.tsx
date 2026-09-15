@@ -61,13 +61,13 @@ export default function Home() {
             value: item.marketCapUsd,
             locale: "en-US",
             currency: "USD",
-            compact: true,
+            notation: "compact",
           }),
           formatedVolume: currencyFormatter({
             value: item.volumeUsd24Hr,
             locale: "en-US",
             currency: "USD",
-            compact: true,
+            notation: "compact",
           }),
         };
         return formated;
