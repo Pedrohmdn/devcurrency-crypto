@@ -253,9 +253,3 @@ This project consumes the **[CoinCap API v3](https://docs.coincap.io/)** to obta
 | `GET /v3/assets/{id}` | Details of a specific cryptocurrency |
 
 ---
-
-<div align="center">
-
-Feito com ❤️ por Pedro | Made with ❤️ by Pedro
-
-</div>
