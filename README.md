@@ -88,7 +88,7 @@ src/
 git clone https://github.com/Pedrohmdn/devcurrency-crypto.git
 
 # Acesse a pasta do projeto
-cd dev-currency
+cd devcurrency-crypto
 
 # Instale as dependências
 npm install
@@ -206,7 +206,7 @@ src/
 git clone https://github.com/Pedrohmdn/devcurrency-crypto.git
 
 # Navigate to the project folder
-cd dev-currency
+cd devcurrency-crypto
 
 # Install dependencies
 npm install
