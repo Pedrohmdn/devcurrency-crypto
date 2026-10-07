@@ -85,7 +85,7 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/dev-currency.git
+git clone https://github.com/Pedrohmdn/devcurrency-crypto.git
 
 # Acesse a pasta do projeto
 cd dev-currency
@@ -203,7 +203,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/dev-currency.git
+git clone https://github.com/Pedrohmdn/devcurrency-crypto.git
 
 # Navigate to the project folder
 cd dev-currency
